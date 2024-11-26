@@ -25,14 +25,14 @@ include('login-check.php')
 
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="inde.php">12th Avenue Cafe</a>
+    <a class="navbar-brand" href="index.php">12th Avenue Cafe</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex">
         <li class="nav-item">
-          <a class="nav-link" href="inde.php">HOME</a>
+          <a class="nav-link" href="index.php">HOME</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="manage_admin.php">ADMIN MANAGER</a>
@@ -49,6 +49,9 @@ include('login-check.php')
         <li class="nav-item">
           <a class="nav-link" href="log.php">USERS</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="charts.php">CHARTS</a>
+        </li>
         <li class="nav-item ms-auto d-flex justify-content-end">
           <a class="nav-link btn text-white bg-danger px-3 rounded-0 justify-content-end" href="logout.php">LOG OUT</a>
         </li>
@@ -64,7 +67,7 @@ include('login-check.php')
 <div class="menu text-center">
     <div class="wrapper">
         <ul>
-            <li><a href="inde.php">HOME</a></li>
+            <li><a href="index.php">HOME</a></li>
             <li><a href="manage_admin.php">ADMIN MANAGER</a></li>
             <li><a href="manage_category.php">CATEGORY</a></li>
             <li><a href="manage_foods.php">PRODUCTS</a></li>

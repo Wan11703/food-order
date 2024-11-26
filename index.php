@@ -86,7 +86,7 @@ if(isset($_POST['add_to_cart'])){
     }
 
     $_SESSION['cart_msg'] = "<div class='success text-center'>Food Added to Cart</div>";
-    header('location:'.SITEURL.'ind.php');
+    header('location:'.SITEURL.'index.php');
     exit();
 }
 

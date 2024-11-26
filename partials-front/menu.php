@@ -49,7 +49,7 @@ $username = $_COOKIE['username'];
                     <?php echo "Welcome, $username!"; ?>
                     </li>
                     <li>
-                        <a href="<?php echo SITEURL; ?>ind.php">Home</a>
+                        <a href="<?php echo SITEURL; ?>index.php">Home</a>
                     </li>
                     <li>
                         <a href="<?php echo SITEURL; ?>categories.php">Categories</a>

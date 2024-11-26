@@ -40,7 +40,7 @@ if(isset($_POST['submit'])){
 
             $id = $row['id'];
             
-            header('location:'.SITEURL."ind.php");
+            header('location:'.SITEURL."index.php");
             exit();
         } else {
             echo "<div class='message' style=\"text-align: center\">

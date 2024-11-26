@@ -70,7 +70,7 @@ include('../config/constants.php')
             $_SESSION['login'] = "<div class='success'>Login Success</div>";
             $_SESSION['user'] = $username;
 
-            header('location:'.SITEURL.'admin/inde.php');
+            header('location:'.SITEURL.'admin/index.php');
         }else{
             $_SESSION['login'] = "<div class='error text-center'>Login Failed: Wrong Username and Password</div>";
             header('location:'.SITEURL.'admin/login.php');
